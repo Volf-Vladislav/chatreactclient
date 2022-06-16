@@ -1,0 +1,40 @@
+@import "./header.scss";
+@import "./filter.scss";
+@import "./search.scss";
+@import "./chat.scss";
+
+@import "./mobile.scss";
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+.emoji-picker-react {
+    box-shadow: none !important;
+    .emoji-group:before {
+        color: #805dab !important;
+        background: #0f0f0f !important;
+        top: -1px !important;
+    }
+}
+
+.neonRed {
+    text-shadow: 0 0 21px rgba(255, 255, 255, 0.863), 0 0 42px #c65757d4;
+}
+
+.background {
+    background: #0f0f0f;
+    background: #000000eb;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("../svg/pattern.svg");
+}
+
+html, body, #root, .background {
+    height: 100%;
+}
+
+
+.pointer {
+    cursor: pointer;
+}

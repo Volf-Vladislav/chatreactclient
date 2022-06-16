@@ -1,0 +1,42 @@
+@import url('./chatHeader.scss');
+@import url('./messages.scss');
+@import url('./popup.scss');
+
+.chatContainer {
+    .chatInput {
+        position: absolute;
+        bottom: 8px;
+        left: 20%;
+        right: 20%;
+        height: 54px;
+        width: calc(100vw - 40%);
+        background: #0f0f0f;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+
+        .chatControllers {
+            width: 80%;
+            input {
+                margin-left: 15px;
+                line-height: 30px;
+                margin-top: 2px;
+                width: 90%;
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.84);
+                height: 30px;
+                border: 0px;
+                background: transparent;
+                border-radius: 5px;
+            }
+
+            input:focus {
+                outline: none !important;
+                border: 2px solid #805dab8d;
+            }
+        }
+    }
+}

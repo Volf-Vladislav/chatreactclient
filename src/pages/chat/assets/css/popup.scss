@@ -1,0 +1,30 @@
+.chatContainer {
+    .chatPopup {
+        z-index: 999;
+        position: absolute;
+        top: 66px;
+        right: 20%;
+        background: #0f0f0f;
+        border: 1px solid #0000004d;
+        border-radius: 10px;
+        width: auto !important;
+        padding: 15px 35px;
+
+        display: flex;
+        flex-direction: column;
+
+        div {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            width: auto !important;
+
+            p {
+                color: rgba(255, 255, 255, 0.76);
+                margin-left: 10px;
+            }
+        }
+    }
+}

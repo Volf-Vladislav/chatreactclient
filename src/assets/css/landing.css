@@ -1,0 +1,100 @@
+.customFooter em {
+    color: #03a4ed;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.customFooter span {
+    color: #fe3f40;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footerNavigation a {
+    color: #fe3f40 !important;
+    margin: 0 1rem;
+}
+
+.animation1 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.animation2 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.animation3 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.animation4 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.animation5 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.animation6 {
+    visibility: visible;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.imageStyle {
+    float: right;
+    max-width: 70%;
+    height: 70%;
+}
+
+.customFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footerNavigation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,93 @@
+.chatContainer {
+    .chatHeader {
+        width: 100vw;
+        height: 66px;
+        border-top: 2px solid #805dab;
+        background: #0f0f0f;
+        padding-left: 20%;
+        padding-right: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #00000066;
+
+        .clickable {
+            cursor: pointer;
+        }
+
+        .closeChat {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div {
+            width: 19%;
+        }
+
+        .menu {
+            border-radius: 50px;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .dot {
+                height: 4px;
+                width: 4px;
+                border-radius: 50px;
+                background: #ad8cd5;
+                margin: 1px;
+            }
+        }
+
+        .status {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .text {
+                font-weight: 500;
+                font-size: 14px;
+                text-transform: capitalize;
+
+                line-height: 10px;
+            }
+
+            .online {
+                color: #ad8cd5;
+            }
+
+            .print {
+                font-weight: bold;
+                display: inline-block;
+                font-family: monospace;
+                color: #ad8cd5;
+                clip-path: inset(0 3ch 0 0);
+                animation: l 2s steps(8) infinite;
+            }
+
+            @keyframes l {
+                to {
+                    clip-path: inset(0 -1ch 0 0);
+                }
+            }
+
+            .disconnected {
+                color: #c65757;
+            }
+
+            .name {
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.77);
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+    }
+}
